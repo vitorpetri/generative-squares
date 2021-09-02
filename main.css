@@ -24,7 +24,7 @@ body > a {
   border-bottom: 3px solid #000
 }
 body > a span:first-child {
-  font-size: 1.2rem;
+  font-size: 0.8rem;
 }
 
 body > span {
@@ -34,7 +34,7 @@ body > span {
 
   color:purple;
 
-  font: bold 1rem monospace;
+  font: bold 0.8rem monospace;
 }
 
 /* body > span a:first-child {
