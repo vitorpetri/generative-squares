@@ -50,7 +50,7 @@ body > span a:last-child {
   
   body > a {
     position: absolute;
-    top: 13rem;
+    top: 16rem;
     right: 40%;
     transform: translateX(50%);
 
@@ -64,7 +64,7 @@ body > span a:last-child {
   }
   body > span {
     position: absolute;
-    top: 23rem;
+    top: 26rem;
     right: 40%;
     transform: translateX(50%);
     gap: 0.8rem 0;
