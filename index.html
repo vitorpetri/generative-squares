@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GENERATIVE</title>
+
+  <link rel="shortcut icon" href="favicon.png" type="image/x-png">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <body>
+
+    <a href="./index.html"><span>click to </span><span>GENERATE</span></a>
+
+    <canvas width="600" height="600"></canvas>
+
+    <span>
+      <a href="http://vitorpetri.com" target="_blank">by Vitor Petri</a>
+
+      <a href="https://www.domestika.org/en/courses/2729-creative-coding-making-visuals-with-javascript" target="_blank">
+        created in Bruno Imrbizi Domestika course
+      </a>
+    </span>
+
+    <script>
+      let canvas = document.querySelector('canvas')
+      let context = canvas.getContext('2d')
+  
+      context.lineWidth = Math.random() * 2.5 + 1.5
+      const width = 60
+      const height = 60
+      const gap = 20
+      let x, y
+  
+      for (let i = 0; i < 5; i++) {
+        for (let j = 0; j < 5; j++) {
+          x = 100 + (width + gap) * i
+          y = 100 + (height + gap) * j
+    
+          context.beginPath()
+          context.rect(x, y, width, height)
+          context.stroke()
+  
+          if (Math.random() < 0.3) {
+            context.beginPath()
+            context.rect(x + 8, y + 8, width - 16, height - 16)
+            context.stroke()
+          } if (Math.random() < 0.2) {
+            context.beginPath()
+            context.rect(x + 16, y + 16, width - 32, height - 32)
+            context.stroke()
+          } if (Math.random() < 0.1) {
+            context.beginPath()
+            context.rect(x + 22, y + 22, width - 44, height - 44)
+            context.stroke()
+          }
+        }
+      }
+    </script>
+  </body>
+</body>
+</html>
