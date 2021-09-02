@@ -65,11 +65,10 @@ body > span a:last-child {
   body > span {
     position: absolute;
     top: 20rem;
-    right: 36.6%;
+    right: 40%;;
     transform: translateX(50%);
     gap: 0.8rem 0;
 
-    text-align: left;
     font-size: 0.8rem;
   }
   
