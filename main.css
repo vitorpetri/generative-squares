@@ -2,6 +2,7 @@ body {
   margin: 0; 
   padding: 0;
 
+  color: #000;
   background: antiquewhite;
 
   overflow-x: hidden;
@@ -21,7 +22,7 @@ body > a {
   font: 3rem monospace;
 
   text-decoration: none;
-  border-bottom: 3px solid #000
+  border-bottom: 3px solid #000;
 }
 body > a span:first-child {
   font-size: 0.8rem;
@@ -32,17 +33,13 @@ body > span {
   flex-direction: column;
   text-align: center;
 
-  color:purple;
-
   font: bold 0.5rem monospace;
   gap: 0.5rem 0;
 }
 
-/* body > span a:first-child {
+body > span a {
+  color:teal;
 }
-
-body > span a:last-child {
-} */
 
 @media only screen and (min-width: 812px) {
   canvas {
