@@ -2,8 +2,8 @@ body {
   margin: 0; 
   padding: 0;
 
-  color: #000;
-  background: antiquewhite;
+  color: #fefefe;
+  background: #101010;
 
   overflow-x: hidden;
 }
@@ -12,17 +12,17 @@ canvas {
   height: 100vw;
 }
 
-body > a {
+body > a:first-child  {
   display: flex;
   flex-direction: column;
   text-align: center;
   padding-block: 2rem;
 
   color: inherit;
-  font: 3rem monospace;
+  font: 3rem 'Space Grotesk', monospace;
 
   text-decoration: none;
-  border-bottom: 3px solid #000;
+  border-bottom: 3px solid #fefefe;
 }
 body > a span:first-child {
   font-size: 0.8rem;
@@ -33,12 +33,12 @@ body > span {
   flex-direction: column;
   text-align: center;
 
-  font: bold 0.5rem monospace;
+  font: bold 0.5rem 'Space Grotesk', monospace;
   gap: 0.5rem 0;
 }
 
 body > span a {
-  color:teal;
+  color:#00B8A0;
 }
 
 @media only screen and (min-width: 812px) {
@@ -46,7 +46,7 @@ body > span a {
     height: 50vw;
   }
   
-  body > a {
+  body > a:first-child {
     position: absolute;
     top: 16rem;
     right: 40%;
