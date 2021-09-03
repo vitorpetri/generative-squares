@@ -1,10 +1,8 @@
 body {
   margin: 0; 
   padding: 0;
-
   color: #fefefe;
   background: #000;
-
   overflow-x: hidden;
 }
 
@@ -17,10 +15,8 @@ body > a:first-child  {
   flex-direction: column;
   text-align: center;
   padding-block: 2rem;
-
   color: inherit;
-  font: 3rem 'Space Grotesk', monospace;
-
+  font: 2.2rem 'Space Grotesk', monospace;
   text-decoration: none;
   border-bottom: 3px solid #fefefe;
 }
@@ -32,7 +28,6 @@ body > span {
   display: flex;
   flex-direction: column;
   text-align: center;
-
   font: bold 0.5rem 'Space Grotesk', monospace;
   gap: 0.5rem 0;
 }
@@ -51,7 +46,7 @@ body > span a {
     top: 16rem;
     right: 40%;
     transform: translateX(50%);
-
+    font-size: 3.6rem;
     text-decoration: none;
     border-bottom: none;
   }
@@ -66,7 +61,6 @@ body > span a {
     right: 40%;
     transform: translateX(50%);
     gap: 0.8rem 0;
-
     font-size: 0.8rem;
   }
   
